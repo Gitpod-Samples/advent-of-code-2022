@@ -1,8 +1,8 @@
 <img src="./.assets/christmas_ferris.png" width="164">
 
-# 🎄 Advent of Code {year}
+# 🎄 Advent of Code 2022
 
-Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.rust-lang.org/).
+Starter Template for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.rust-lang.org/).
 
 <!--- advent_readme_stars table --->
 
@@ -10,19 +10,16 @@ Solutions for [Advent of Code](https://adventofcode.com/) in [Rust](https://www.
 
 ## Template setup
 
-This template supports all major OS (macOS, Linux, Windows).
+### Create your repository 📝
 
-### Create your repository
+1. Open [the template repository](https://github.com/fspoettel/advent-of-code-rust) on Github.
+2. Click [`Use this template`](https://github.com/Gitpod-Samples/advent-of-code-2022/generate) and create your repository.
 
-1.  Open [the template repository](https://github.com/fspoettel/advent-of-code-rust) on Github.
-2.  Click `Use this template` and create your repository.
-3.  Clone your repository to your computer.
+### Start Working ⚡💻
 
-### Setup rust
+-   Open a [Cloud Dev Environment in Gitpod](https://www.gitpod.io/cde) by clicking the following button:
 
-1.  Install the [Rust toolchain](https://www.rust-lang.org/tools/install).
-2.  (recommended) Install the [rust-analyzer](https://rust-analyzer.github.io/manual.html) extension for your code editor.
-3.  (optional) Install a native debugger. If you are using VS Code, [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) is a good option.
+    [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
 
 ---
 
@@ -119,7 +116,7 @@ cargo all
 
 _Total timing_ is computed from individual solution _timings_ and excludes as much overhead as possible.
 
-### Run all solutions against example input
+### Run all solutions against the example input
 
 ```sh
 cargo test
@@ -137,6 +134,10 @@ cargo fmt
 cargo clippy
 ```
 
+<details>
+
+<summary> <b>Optional template features</b> </summary>
+
 ## Optional template features
 
 ### Download puzzle inputs via aoc-cli
@@ -150,7 +151,7 @@ Once installed, you can use the [download command](#download-input-for-a-day).
 
 Uncomment the `clippy` job in the `ci.yml` workflow to enable clippy checks in CI.
 
-### Automatically track ⭐️ progress in readme
+### Automatically track ⭐️ progress in the readme
 
 This template includes [a Github action](https://github.com/k2bd/advent-readme-stars) that automatically updates the readme with your advent of code progress.
 
@@ -171,10 +172,10 @@ Go to the _Secrets_ tab in your repository settings and create the following sec
 
 ### Use VS Code to debug your code
 
- 1. Install [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) and [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb).
- 2. Set breakpoints in your code. [^3]
- 3. Click _Debug_ next to the unit test or the _main_ function. [^4]
- 4. The debugger will halt your program at the specific line and allow you to inspect the local stack. [^5]
+1.  Install [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) and [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb).
+2.  Set breakpoints in your code. [^3]
+3.  Click _Debug_ next to the unit test or the _main_ function. [^4]
+4.  The debugger will halt your program at the specific line and allow you to inspect the local stack. [^5]
 
 ## Useful crates
 
@@ -188,12 +189,20 @@ Do you have aoc-specific crate recommendations? [Share them!](https://github.com
 
 ## Common pitfalls
 
-* **Integer overflows:** This template uses 32-bit integers by default because it is generally faster - for example when packed in large arrays or structs - than using 64-bit integers everywhere. For some problems, solutions for real input might exceed 32-bit integer space. While this is checked and panics in `debug` mode, integers [wrap](https://doc.rust-lang.org/book/ch03-02-data-types.html#integer-overflow) in `release` mode, leading to wrong output when running your solution.
+-   **Integer overflows:** This template uses 32-bit integers by default because it is generally faster - for example when packed in large arrays or structs - than using 64-bit integers everywhere. For some problems, solutions for real input might exceed 32-bit integer space. While this is checked and panics in `debug` mode, integers [wrap](https://doc.rust-lang.org/book/ch03-02-data-types.html#integer-overflow) in `release` mode, leading to wrong output when running your solution.
 
-## Footnotes
+<!-- ## Footnotes
 
 [^1]: The session cookie might expire after a while (~1 month) which causes the downloads to fail. To fix this issue, refresh the `.adventofcode.session` file.
 [^2]: The session cookie might expire after a while (~1 month) which causes the automated workflow to fail. To fix this issue, refresh the AOC_SESSION secret.
-[^3]: <img src="https://user-images.githubusercontent.com/1682504/198838369-453dc22c-c645-4803-afe0-fc50d5a3f00c.png" alt="Set a breakpoint" width="450" /> 
-[^4]: <img alt="Run debugger" src="https://user-images.githubusercontent.com/1682504/198838372-c89369f6-0d05-462e-a4c7-8cd97b0912e6.png" width="450" />
-[^5]: <img alt="Inspect debugger state" src="https://user-images.githubusercontent.com/1682504/198838373-36df6996-23bf-4757-9335-0bc4c1db0276.png" width="450" />
+[^3]:
+    <img src="https://user-images.githubusercontent.com/1682504/198838369-453dc22c-c645-4803-afe0-fc50d5a3f00c.png" alt="Set a breakpoint" width="450" />
+
+[^4]:
+    <img alt="Run debugger" src="https://user-images.githubusercontent.com/1682504/198838372-c89369f6-0d05-462e-a4c7-8cd97b0912e6.png" width="450" />
+
+[^5]:
+    <img alt="Inspect debugger state" src="https://user-images.githubusercontent.com/1682504/198838373-36df6996-23bf-4757-9335-0bc4c1db0276.png" width="450" /> -->
+
+
+</details>
