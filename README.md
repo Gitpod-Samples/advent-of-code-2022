@@ -12,8 +12,7 @@ Starter Template for [Advent of Code](https://adventofcode.com/) in [Rust](https
 
 ### Create your repository 📝
 
-1. Open [the template repository](https://github.com/fspoettel/advent-of-code-rust) on Github.
-2. Click [`Use this template`](https://github.com/Gitpod-Samples/advent-of-code-2022/generate) and create your repository.
+- Click [`Use this template`](https://github.com/Gitpod-Samples/advent-of-code-2022/generate) and create your repository.
 
 ### Start Working ⚡💻
 
